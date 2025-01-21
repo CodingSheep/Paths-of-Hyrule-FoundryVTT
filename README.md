@@ -1,2 +1,25 @@
-# Paths Of Hyrule
-A Zelda campaign resource module for Pathfinder Second Edition written by Aoife Ester.
+# Paths of Hyrule - Foundry VTT Module Implementation
+A module implementation of Aoife's *Paths of Hyrule* homebrew: [Player Core](https://scribe.pf2.tools/v/V3PlxT3q-paths-of-hyrule-player-core) [GM Core](https://scribe.pf2.tools/v/5W9RYOpZ-paths-of-hyrule-gm-core)
+
+Currently includes everything as of 1.07 of the homebrew
+
+# Requirements
+- PF2e System version 6.8.2 or greater required
+- Updated for Foundry V12
+- For parts of the animal companion feats to work properly, the [PF2e Animal Companion Module](https://github.com/TikaelSol/PF2e-Animal-Companions) is required
+
+# Installation
+- In FoundryVTT, click "Install Module" and at the bottom of the pop-up, input the following Manifest URL:
+  https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/master/module.json
+- You will be prompted to enable/install the PF2e Animal Companion Module.
+
+# Bug Reports
+You may create an issue on the project if you find an issue.
+
+If you need some direct help with the module, you may ping me in Aoife's discord server (Username: CodingSheep)
+
+# Contributing
+Anyone is welcome to make a Pull Request for suggested changes.
+
+# TODO
+- Currently, the module uses either default icons for feats or icons for Zelda items found online. Much like the TODO of the previously maintained implementation of this homebrew, I'd love to add custom icons for everything.
