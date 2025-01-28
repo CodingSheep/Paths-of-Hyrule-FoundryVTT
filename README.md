@@ -4,14 +4,14 @@ A module implementation of Aoife's *Paths of Hyrule* homebrew: [Player Core](htt
 Currently includes everything as of 1.07 of the homebrew
 
 # Requirements
-- PF2e System version 6.8.2 or greater required
-- Updated for Foundry V12
-- For parts of the animal companion feats to work properly, the [PF2e Animal Companion Module](https://github.com/TikaelSol/PF2e-Animal-Companions) is required
+- Foundry V12
+- PF2e System Version 6.8.4 or greater
+- [PF2e Creature Compendia Version 7.0 or greater](https://github.com/TikaelSol/PF2e-Animal-Companions)
 
 # Installation
 - In FoundryVTT, click "Install Module" and at the bottom of the pop-up, input the following Manifest URL:
   https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/master/module.json
-- You will be prompted to enable/install the PF2e Animal Companion Module.
+- You will be prompted to enable/install the PF2e Creature Compendia Module.
 
 # Bug Reports
 You may create an issue on the project if you find an issue.
