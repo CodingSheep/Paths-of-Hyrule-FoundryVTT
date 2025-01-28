@@ -1,3 +1,24 @@
-2025/01/28-22:07:46.106093 f052e560f100 Recovering log #100
-2025/01/28-22:07:46.111083 f052e560f100 Delete type=3 #98
-2025/01/28-22:07:46.111114 f052e560f100 Delete type=0 #100
+2025/01/28-22:59:18.573036 f052dfe0f100 Recovering log #103
+2025/01/28-22:59:18.575117 f052dfe0f100 Level-0 table #105: started
+2025/01/28-22:59:18.578146 f052dfe0f100 Level-0 table #105: 60209 bytes OK
+2025/01/28-22:59:18.583360 f052dfe0f100 Delete type=0 #103
+2025/01/28-22:59:18.583433 f052dfe0f100 Delete type=3 #102
+2025/01/28-23:01:06.343354 f052de60f100 Level-0 table #108: started
+2025/01/28-23:01:06.345695 f052de60f100 Level-0 table #108: 1973 bytes OK
+2025/01/28-23:01:06.347797 f052de60f100 Delete type=0 #106
+2025/01/28-23:01:06.356548 f052de60f100 Manual compaction at level-0 from '!actors!Al7YeSQOQFqoK4hb' @ 72057594037927935 : 1 .. '!actors.items!yMUM0B4hI1YjJIbN.rL70MqEJRX83fKRC' @ 0 : 0; will stop at '!actors.items!nN1EuZzew35tr0eL.qMckKDpOUf4Rkj0B' @ 212 : 1
+2025/01/28-23:01:06.356556 f052de60f100 Compacting 2@0 + 0@1 files
+2025/01/28-23:01:06.358996 f052de60f100 Generated table #109@0: 5 keys, 4534 bytes
+2025/01/28-23:01:06.359012 f052de60f100 Compacted 2@0 + 0@1 files => 4534 bytes
+2025/01/28-23:01:06.360985 f052de60f100 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/01/28-23:01:06.361059 f052de60f100 Delete type=2 #105
+2025/01/28-23:01:06.361139 f052de60f100 Delete type=2 #108
+2025/01/28-23:01:06.363335 f052de60f100 Manual compaction at level-0 from '!actors.items!nN1EuZzew35tr0eL.qMckKDpOUf4Rkj0B' @ 212 : 1 .. '!actors.items!yMUM0B4hI1YjJIbN.rL70MqEJRX83fKRC' @ 0 : 0; will stop at (end)
+2025/01/28-23:01:06.365416 f052de60f100 Manual compaction at level-1 from '!actors!Al7YeSQOQFqoK4hb' @ 72057594037927935 : 1 .. '!actors.items!yMUM0B4hI1YjJIbN.rL70MqEJRX83fKRC' @ 0 : 0; will stop at '!actors.items!nN1EuZzew35tr0eL.qMckKDpOUf4Rkj0B' @ 296 : 1
+2025/01/28-23:01:06.365421 f052de60f100 Compacting 1@1 + 1@2 files
+2025/01/28-23:01:06.368118 f052de60f100 Generated table #110@1: 25 keys, 17520 bytes
+2025/01/28-23:01:06.368135 f052de60f100 Compacted 1@1 + 1@2 files => 17520 bytes
+2025/01/28-23:01:06.369898 f052de60f100 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/01/28-23:01:06.369978 f052de60f100 Delete type=2 #75
+2025/01/28-23:01:06.370035 f052de60f100 Delete type=2 #109
+2025/01/28-23:01:06.372147 f052de60f100 Manual compaction at level-1 from '!actors.items!nN1EuZzew35tr0eL.qMckKDpOUf4Rkj0B' @ 296 : 1 .. '!actors.items!yMUM0B4hI1YjJIbN.rL70MqEJRX83fKRC' @ 0 : 0; will stop at (end)
