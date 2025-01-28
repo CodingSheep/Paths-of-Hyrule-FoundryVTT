@@ -1,0 +1,404 @@
+{
+  "id": "paths-of-hyrule-foundryvtt",
+  "title": "Paths of Hyrule - FoundryVTT",
+  "description": "A Zelda campaign resource module for Pathfinder Second Edition written by Aoife Ester.",
+  "url": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT",
+  "manifest": "https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/master/module.json",
+  "download": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
+  "version": "1.07",
+  "authors": [
+    {
+      "name": "Aoife Ester",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "pf2e-animal-companions",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {
+    "paths-of-hyrule-foundryvtt": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "ball-and-chain": "Ball and Chain",
+          "boomerang-blade": "Boomerang Blade",
+          "clawshot": "Clawshot",
+          "cutlass": "Cutlass",
+          "deku-nut": "Deku Nut",
+          "demoncarver": "Demon Carver",
+          "drillshaft": "Drillshaft",
+          "ember-seed": "Ember Seed",
+          "fangs": "Fangs",
+          "giant-boomerang": "Giant Boomerang",
+          "greatshovel": "Greatshovel",
+          "gripshot": "Gripshot",
+          "heavy-gauntlet": "Heavy Gauntlet",
+          "hookshot": "Hookshot",
+          "horn": "Horn",
+          "longshot": "Longshot",
+          "lynel-greatbow": "Lynel Greatbow",
+          "scalespear": "Scalespear",
+          "scattershot": "Scattershot",
+          "scent-seed": "Scent Seed",
+          "serpentine-spear": "Serpentine Spear",
+          "slingshot": "Slingshot",
+          "spear-parasol": "Spear Parasol",
+          "tail-axe": "Tail Axe",
+          "tail-mace": "Tail Mace",
+          "war-bell": "War Bell",
+          "wrecker-sword": "Wrecker Sword"
+        },
+        "creatureTraits": {
+          "deku-scrub": "Deku Scrub",
+          "gerudo": "Gerudo",
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "zora": "Zora",
+          "blin": "Blin",
+          "fairy": "Fairy",
+          "kokiri": "Kokiri",
+          "korok": "Korok",
+          "lizal": "Lizal",
+          "lynel": "Lynel",
+          "rito": "Rito",
+          "guardian": "Guardian",
+          "kikwi": "Kikwi",
+          "minish": "Minish",
+          "mogma": "Mogma",
+          "sheikah": "Sheikah",
+          "skull-kid": "Skull Kid",
+          "subrosian": "Subrosian",
+          "sword-spirit": "Sword Spirit",
+          "twili": "Twili",
+          "zonai-construct": "Zonai Construct",
+          "shadow-being": "Shadow Being"
+        },
+        "equipmentTraits": {
+          "aerodynamic": {
+            "label": "Aerodynamic",
+            "description": "This armor is designed for use in flight, with a streamlined design that reduces drag. You don’t apply the armor’s check penalty to Acrobatics or Athletics checks while flying or falling."
+          },
+          "ancient": {
+            "label": "Ancient",
+            "description": "Items with this trait were created using ancient sheikah technology that has largely been lost to time. To Craft an item with the ancient trait, you must have the Ancient Technologist skill feat."
+          },
+          "entrench-spell": {
+            "label": "Entrench Spell",
+            "description": "You can position yourself in the armor or reposition its articulated pieces to better protect against some attacks. If you're trained in this armor, while wearing it you can spend a single action to gain a +1 circumstance bonus to AC against a certain type of attack until the start of your next turn. The entrench trait lists the type of attack this bonus applies against, typically entrench melee or entrench ranged."
+          },
+          "fireproof": {
+            "label": "Fireproof",
+            "description": "This armor is made of fireproof materials or feature a design that limits the spread of flame. While wearing this armor, the flat check to remove persistent fire damage is DC 10 instead of DC 15, which is reduced to DC 5 with appropriate assistance."
+          },
+          "fairy": "Fairy",
+          "goron": "Goron",
+          "guardian": "Guardian",
+          "hylian": "Hylian",
+          "kikwi": "Kikwi",
+          "kokori": "Kokiri",
+          "korok": "Korok",
+          "lizal": "Lizal",
+          "lynel": "Lynel",
+          "rito": "Rito",
+          "sheikah": "Sheikah",
+          "subrosian": "Subrosian",
+          "sword-spirit": "Sword Spirit",
+          "zora": "Zora"
+        },
+        "featTraits": {
+          "deku-scrub": "Deku Scrub",
+          "gerudo": "Gerudo",
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "zora": "Zora",
+          "blin": "Blin",
+          "fairy": "Fairy",
+          "kokiri": "Kokiri",
+          "korok": "Korok",
+          "lizal": "Lizal",
+          "lynel": "Lynel",
+          "rito": "Rito",
+          "guardian": "Guardian",
+          "kikwi": "Kikwi",
+          "minish": "Minish",
+          "mogma": "Mogma",
+          "sheikah": "Sheikah",
+          "skull-kid": "Skull Kid",
+          "subrosian": "Subrosian",
+          "sword-spirit": "Sword Spirit",
+          "twili": "Twili",
+          "zonai-construct": "Zonai Construct",
+          "shadow-being": "Shadow Being"
+        },
+        "languages": {
+          "ancient-hylian": "Ancient Hylian",
+          "blin": "Blin",
+          "deku": "Deku",
+          "demonic": "Demonic",
+          "fairy": "Fairy",
+          "gerudo": "Gerudo",
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "lizal": "Lizal",
+          "lynel": "Lynel",
+          "minish": "Minish",
+          "mogma": "Mogma",
+          "sheikah": "Sheikah",
+          "sky-writing": "Sky Writing",
+          "stal": "Stal",
+          "subrosian": "Subrosian",
+          "tri": "Tri",
+          "yeti": "Yeti",
+          "zonai": "Zonai",
+          "zoran": "Zoran"
+        },
+        "spellTraits": {
+          "champion": {
+            "label": "Champion",
+            "description": "These spells represent the power of a particular ancestry's champion, and can only be learned through ancestry feats."
+          }
+        },
+        "weaponTraits": {
+          "ancient": {
+            "label": "Ancient",
+            "description": "Items with this trait were created using ancient sheikah technology that has largely been lost to time. To Craft an item with the ancient trait, you must have the Ancient Technologist skill feat."
+          },
+          "gerudo": "Gerudo",
+          "goron": "Goron",
+          "hylian": "Hylian",
+          "lizal": "Lizal",
+          "lynel": "Lynel",
+          "sheikah": "Sheikah",
+          "tail": {
+            "label": "Tail",
+            "description": "A weapon with this trait is attached to your tail instead of held in your hands. You can only use a weapon with the tail trait if you have a tail, and you can only have one such weapon attached at any time, even if you have multiple tails. You must use an Interact action while holding a tail weapon to to attach it to your tail, and they can be Disarmed as normal."
+          },
+          "vessel": "Vessel",
+          "zora": "Zora"
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "pf2e-paths-of-hyrule-actions",
+      "label": "Actions",
+      "path": "packs/pf2e-paths-of-hyrule-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-ancestries",
+      "label": "Ancestries",
+      "path": "packs/pf2e-paths-of-hyrule-ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/pf2e-paths-of-hyrule-backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-companions",
+      "label": "Companions",
+      "path": "packs/pf2e-paths-of-hyrule-companions",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-deities",
+      "label": "Deities",
+      "path": "packs/pf2e-paths-of-hyrule-deities",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-effects",
+      "label": "Effects",
+      "path": "packs/pf2e-paths-of-hyrule-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-equipment",
+      "label": "Equipment",
+      "path": "packs/pf2e-paths-of-hyrule-equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-familiars",
+      "label": "Familiars",
+      "path": "packs/pf2e-paths-of-hyrule-familiars",
+      "type": "Actor",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-feats",
+      "label": "Feats",
+      "path": "packs/pf2e-paths-of-hyrule-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-features",
+      "label": "Features",
+      "path": "packs/pf2e-paths-of-hyrule-features",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-heritages",
+      "label": "Heritages",
+      "path": "packs/pf2e-paths-of-hyrule-heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-journals",
+      "label": "Journals",
+      "path": "packs/pf2e-paths-of-hyrule-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-spells",
+      "label": "Spells",
+      "path": "packs/pf2e-paths-of-hyrule-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "pf2e-paths-of-hyrule-vehicles",
+      "label": "Vehicles",
+      "path": "packs/pf2e-paths-of-hyrule-vehicles",
+      "type": "Actor",
+      "system": "pf2e",
+      "package": "paths-of-hyrule-foundryvtt",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Paths of Hyrule",
+      "sorting": "a",
+      "packs": [
+        "pf2e-paths-of-hyrule-actions",
+        "pf2e-paths-of-hyrule-ancestries",
+        "pf2e-paths-of-hyrule-backgrounds",
+        "pf2e-paths-of-hyrule-companions",
+        "pf2e-paths-of-hyrule-deities",
+        "pf2e-paths-of-hyrule-effects",
+        "pf2e-paths-of-hyrule-equipment",
+        "pf2e-paths-of-hyrule-familiars",
+        "pf2e-paths-of-hyrule-feats",
+        "pf2e-paths-of-hyrule-features",
+        "pf2e-paths-of-hyrule-heritages",
+        "pf2e-paths-of-hyrule-journals",
+        "pf2e-paths-of-hyrule-spells",
+        "pf2e-paths-of-hyrule-vehicles"
+      ]
+    }
+  ]
+}
