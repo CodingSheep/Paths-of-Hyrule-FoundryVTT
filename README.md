@@ -10,7 +10,7 @@ Currently includes everything as of V1.07 of Paths of Hyrule.
 
 # Installation
 - In FoundryVTT, click "Install Module" and at the bottom of the pop-up, input the following Manifest URL:
-  https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/master/module.json
+  https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/main/module.json
 - You will be prompted to enable/install the PF2e Creature Compendia Module.
 
 # Bug Reports
