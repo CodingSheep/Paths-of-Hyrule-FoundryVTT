@@ -3,7 +3,7 @@
   "title": "Paths of Hyrule - FoundryVTT",
   "description": "A Zelda campaign resource module for Pathfinder Second Edition written by Aoife Ester.",
   "url": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT",
-  "manifest": "https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/master/module.json",
+  "manifest": "https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/main/module.json",
   "download": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
   "version": "1.07",
   "authors": [
@@ -92,7 +92,7 @@
         "equipmentTraits": {
           "aerodynamic": {
             "label": "Aerodynamic",
-            "description": "This armor is designed for use in flight, with a streamlined design that reduces drag. You don’t apply the armor’s check penalty to Acrobatics or Athletics checks while flying or falling."
+            "description": "This armor is designed for use in flight, with a streamlined design that reduces drag. You donâ€™t apply the armorâ€™s check penalty to Acrobatics or Athletics checks while flying or falling."
           },
           "ancient": {
             "label": "Ancient",
