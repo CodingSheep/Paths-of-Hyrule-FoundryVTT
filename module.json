@@ -5,7 +5,7 @@
   "url": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT",
   "manifest": "https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/main/module.json",
   "download": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
-  "version": "1.8",
+  "version": "1.8.1",
   "authors": [
     {
       "name": "Aoife Ester",
@@ -13,7 +13,7 @@
     }
   ],
   "compatibility": {
-    "minimum": "12",
+    "minimum": "13",
     "verified": "13"
   },
   "relationships": {
@@ -77,7 +77,7 @@
           "lizal": "Lizal",
           "lynel": "Lynel",
           "rito": "Rito",
-          "guardian": "Guardian",
+          "guardian-construct": "Guardian Construct",
           "kikwi": "Kikwi",
           "minish": "Minish",
           "mogma": "Mogma",
@@ -109,7 +109,7 @@
           },
           "fairy": "Fairy",
           "goron": "Goron",
-          "guardian": "Guardian",
+          "guardian-construct": "Guardian Construct",
           "hylian": "Hylian",
           "kikwi": "Kikwi",
           "kokori": "Kokiri",
@@ -135,7 +135,7 @@
           "lizal": "Lizal",
           "lynel": "Lynel",
           "rito": "Rito",
-          "guardian": "Guardian",
+          "guardian-construct": "Guardian Construct",
           "kikwi": "Kikwi",
           "minish": "Minish",
           "mogma": "Mogma",

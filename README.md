@@ -9,8 +9,8 @@ A module implementation of Aoife's *Paths of Hyrule* homebrew:
 Currently includes everything as of V1.8 of Paths of Hyrule.
 
 # Requirements
-- Foundry V12
-- PF2e System Version 6.12.1 or greater
+- Foundry V13
+- PF2e System Version 7.6 or greater
 - [PF2e Creature Compendia Version 7.0 or greater](https://github.com/TikaelSol/PF2e-Animal-Companions)
 
 # Installation
