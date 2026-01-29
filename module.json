@@ -5,7 +5,7 @@
   "url": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT",
   "manifest": "https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/main/module.json",
   "download": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
-  "version": "1.8.1",
+  "version": "1.9",
   "authors": [
     {
       "name": "Aoife Ester",
@@ -72,6 +72,7 @@
           "zora": "Zora",
           "blin": "Blin",
           "fairy": "Fairy",
+          "goriya": "Goriya",
           "kokiri": "Kokiri",
           "korok": "Korok",
           "lizal": "Lizal",
@@ -130,6 +131,7 @@
           "zora": "Zora",
           "blin": "Blin",
           "fairy": "Fairy",
+          "goriya": "Goriya",
           "kokiri": "Kokiri",
           "korok": "Korok",
           "lizal": "Lizal",
@@ -155,6 +157,7 @@
           "demonic": "Demonic",
           "fairy": "Fairy",
           "gerudo": "Gerudo",
+          "goriya": "Goriya",
           "goron": "Goron",
           "hylian": "Hylian",
           "lizal": "Lizal",
