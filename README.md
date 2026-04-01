@@ -6,12 +6,12 @@ A module implementation of Aoife's *Paths of Hyrule* homebrew:
 - [Player Core](https://scribe.pf2.tools/v/V3PlxT3q-paths-of-hyrule-player-core)
 - [GM Core](https://scribe.pf2.tools/v/5W9RYOpZ-paths-of-hyrule-gm-core)
 
-Currently includes everything as of V1.9 of Paths of Hyrule.
+Currently includes everything as of V2.0 of Paths of Hyrule.
 
 # Requirements
 - Foundry V13
-- PF2e System Version 7.9 or greater
-- [PF2e Creature Compendia Version 7.3 or greater](https://github.com/TikaelSol/PF2e-Animal-Companions)
+- PF2e System Version 7.11 or greater
+- [PF2e Creature Compendia Version 7.4 or greater](https://github.com/TikaelSol/PF2e-Animal-Companions)
 
 # Installation
 - In FoundryVTT, click "Install Module" and at the bottom of the pop-up, input the following Manifest URL:

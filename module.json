@@ -5,7 +5,7 @@
   "url": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT",
   "manifest": "https://raw.githubusercontent.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/main/module.json",
   "download": "https://github.com/CodingSheep/Paths-of-Hyrule-FoundryVTT/archive/refs/heads/main.zip",
-  "version": "1.9",
+  "version": "2.0",
   "authors": [
     {
       "name": "Aoife Ester",
@@ -62,6 +62,8 @@
           "tail-axe": "Tail Axe",
           "tail-mace": "Tail Mace",
           "war-bell": "War Bell",
+          "weapon-of-light-club": "Weapon of Light (Club)",
+          "weapon-of-light-staff": "Weapon of Light (Staff)",
           "wrecker-sword": "Wrecker Sword"
         },
         "creatureTraits": {
@@ -88,6 +90,7 @@
           "subrosian": "Subrosian",
           "sword-spirit": "Sword Spirit",
           "twili": "Twili",
+          "zonai": "Zonai",
           "zonai-construct": "Zonai Construct",
           "shadow-being": "Shadow Being"
         },
@@ -147,6 +150,7 @@
           "subrosian": "Subrosian",
           "sword-spirit": "Sword Spirit",
           "twili": "Twili",
+          "zonai": "Zonai",
           "zonai-construct": "Zonai Construct",
           "shadow-being": "Shadow Being"
         },
